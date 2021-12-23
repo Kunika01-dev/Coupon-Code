@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coupon-Code</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="coupon-card"> 
+            <img src="Uber-logo.png" alt="Image is not available" class="logo">
+            <h3>Enjoy ride at 20% off. <br>Use HDFC credit card for payment to avail the offer.</h3>
+            <div class="coupon-row">
+                <span id='cpncode'>CDF249</span>
+                <span id='cpnbtn'>COPY CODE</span>
+            </div>
+            <p>Valid till: 25 Dec, 2021</p>
+        
+        </div>
+    </div>
+    <script>
+        var cpnbtn=document.getElementById('cpnbtn')
+        var cpncode=document.getElementById('cpncode')
+        cpnbtn.onclick=function(){
+            navigator.clipboard.writeText(cpncode.innerText)
+            cpnbtn.innerText="COPIED"
+            setTimeout(function(){
+                cpnbtn.innerText="COPY CODE"
+            },3000)
+        }
+    </script>
+</body>
+</html>
