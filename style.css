@@ -59,4 +59,60 @@
     font-weight: bolder;
 
 }
+@media screen and (max-width: 500px ){
+    .coupon-card{
+        background: linear-gradient(135deg, #607D8B,#9E9E9E);
+        color: #fff;
+        width: 70%;
+        height: 70vh;
+        text-align: center;
+        padding: 40px 50px;
+        border-radius: 15px;
+        box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.8) ;
+    } 
+    .coupon-card p{
+        font-size: 18px;
+        display: flex;
+        width: 11rem;
+        justify-content: center;
+        align-items: center;
+        
+        margin: auto 1px;
+    }
+    .logo{
+        height:10vh;
+        width: 40%;
+        border-radius: 0.3rem;
+        margin-bottom: 20px;
+    }
+    #cpncode{
+        display: flexbox;
+        margin-left:  1.5rem;
+        border:1px dashed #fff;
+        padding: 10px 10px;
+        height: 3rem;
+        width: fit-content;
+        color:black;
+        font-weight: bolder;
+        border-right: 0px;
+    
+    }
+    #cpnbtn{
+        border:1px solid #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 3rem;
+        width:fit-content;
+        padding: 10px 10px;
+        color: black;
+        cursor: pointer;
+        font-weight: bolder;
+    
+    }
+
+}
+    
+}
+
 
