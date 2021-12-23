@@ -19,13 +19,14 @@
     background: linear-gradient(135deg, #607D8B,#9E9E9E);
     color: #fff;
     text-align: center;
+    width: 40%;
     padding: 40px 80px;
     border-radius: 15px;
     box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.8) ;
 }
 .logo{
     height:10vh;
-    width: 16%;
+    width: 17%;
     border-radius: 0.3rem;
     margin-bottom: 20px;
 }
